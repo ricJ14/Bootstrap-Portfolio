@@ -1,0 +1,141 @@
+/* @font-face {
+    font-family: 'blasterdemo';
+    src: url('../webfontkit-20221227-114456/blasterfont-demo-webfont.woff format('woff'),
+         url('../webfontkit-20221227-114456/blasterfont-demo-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'akira_expandedsuper_bold';
+    src: url('../webfontkit-20221227-120314/akira_expanded_demo-webfont.woff2') format('woff2'),
+         url('../webfontkit-20221227-120314/akira_expanded_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #899494;
+}
+nav {
+    background-color: #899494;
+}
+nav a,
+.navbar-brand {
+    color: rgb(0, 191, 255) !important;
+    font-family: "blasterdemo";
+    margin-left: 100px;
+    text-shadow: 0 2px 5px rgb(66, 66, 66);
+}
+nav span {
+    color: rgb(218, 11, 104);
+}
+.hero-container {
+    background-color: #44494c;
+}
+.hero-container div {
+    background-color: #44494c;
+    border-bottom: 3px solid #899494;
+    height: 25px;
+    width: 100%;
+}
+
+.hero-container h1 {
+    /* border: 1px solid red; */
+    color: #899494;
+    display: flex;
+    flex-direction: column;
+    font-family: "akira_expandedsuper_bold";
+    height: 150px;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: #899494;
+    text-align: center;
+}
+
+.about-me {
+    font-family: "akira_expandedsuper_bold";
+    margin-bottom: 50px;
+}
+
+h2,
+p {
+    color: #44494c;
+    text-shadow: 0 2px 5px rgb(66, 66, 66, 80%);
+}
+h2.portfolio {
+    /* border: 2px solid red; */
+    font-family: "akira_expandedsuper_bold";
+    margin-bottom: 50px;
+    text-align: center;
+}
+#folio-grid {
+    align-items: center;
+}
+.col {
+    border: 3px solid #44494c;
+    box-shadow: 0 2px 5px rgb(66, 66, 66, 80%);
+    margin-left: 25px;
+    margin-top: 25px;
+    max-width: 250px;
+    min-height: 250px;
+}
+
+.row a {
+    justify-content: center;
+    color: rgb(0, 191, 255) !important;
+    font-family: "blasterdemo";
+    text-shadow: 0 2px 5px rgb(66, 66, 66);
+}
+
+#absolut {
+    background-image: url(../images/absolut-marxist.jpg);
+    background-size: 250px;
+}
+#cyberpunk {
+    background-image: url(../images/moniinspired.jpg);
+    background-position: center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+#hover {
+    background-image: url(../images/hoverboard.jpg);
+    background-position: center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+#poster {
+    background-image: url(../images/idmultiposter.jpg);
+    background-position: center;
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+#red-alien {
+    background-image: url(../images/redalien.jpg);
+    background-position: center;
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+#cover {
+    background-image: url(../images/cr-cover.jpg);
+    background-position: center;
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+#vaporwave {
+    background-image: url(../images/vaporwave.jpg);
+    background-position: center;
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+#narcissist {
+    background-image: url(../images/absolut-narcissist.jpg);
+    background-position: center;
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
