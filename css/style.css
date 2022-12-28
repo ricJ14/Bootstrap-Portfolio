@@ -7,12 +7,13 @@
 } */
 
 @font-face {
-    font-family: 'akira_expandedsuper_bold';
-    src: url('../webfontkit-20221227-120314/akira_expanded_demo-webfont.woff2') format('woff2'),
-         url('../webfontkit-20221227-120314/akira_expanded_demo-webfont.woff') format('woff');
+    font-family: "akira_expandedsuper_bold";
+    src: url("../webfontkit-20221227-120314/akira_expanded_demo-webfont.woff2")
+            format("woff2"),
+        url("../webfontkit-20221227-120314/akira_expanded_demo-webfont.woff")
+            format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
 
 body {
@@ -21,13 +22,21 @@ body {
 nav {
     background-color: #899494;
 }
-nav a,
+
 .navbar-brand {
     color: rgb(0, 191, 255) !important;
     font-family: "blasterdemo";
     margin-left: 100px;
     text-shadow: 0 2px 5px rgb(66, 66, 66);
 }
+
+.nav-item {
+    font-family: "akira_expandedsuper_bold";
+    font-size: small;
+    margin: 0px;
+    text-shadow: 0 2px 5px rgb(66, 66, 66);
+}
+
 nav span {
     color: rgb(218, 11, 104);
 }
@@ -54,11 +63,13 @@ nav span {
 }
 
 .jumbotron {
+    /* border: 2px solid red; */
     background-color: #899494;
     text-align: center;
 }
 
 .about-me {
+    text-align: left;
     font-family: "akira_expandedsuper_bold";
     margin-bottom: 50px;
 }
@@ -67,15 +78,18 @@ h2,
 p {
     color: #44494c;
     text-shadow: 0 2px 5px rgb(66, 66, 66, 80%);
+    text-align: left;
 }
 h2.portfolio {
     /* border: 2px solid red; */
     font-family: "akira_expandedsuper_bold";
     margin-bottom: 50px;
-    text-align: center;
+    text-align: left;
 }
 #folio-grid {
+    /* border: 2px solid red; */
     align-items: center;
+    margin-bottom: 50px;
 }
 .col {
     border: 3px solid #44494c;
@@ -106,7 +120,7 @@ h2.portfolio {
 #hover {
     background-image: url(../images/hoverboard.jpg);
     background-position: center;
-    background-size: 500px;
+    background-size: 350px;
     background-repeat: no-repeat;
 }
 #poster {
@@ -138,4 +152,27 @@ h2.portfolio {
     background-position: center;
     background-size: 250px;
     background-repeat: no-repeat;
+}
+
+.container h2 {
+    font-family: "akira_expandedsuper_bold";
+    margin-bottom: 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icons a {
+    color: rgb(0, 191, 255);
+    height: 32px;
+    padding: 10px;
+    text-shadow: 0 2px 5px rgb(66, 66, 66);
+}
+
+footer p {
+    padding: 30px;
+    text-align: center;
 }

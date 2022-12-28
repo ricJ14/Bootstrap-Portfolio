@@ -15,6 +15,10 @@
             integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
             crossorigin="anonymous"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+        />
         <link rel="stylesheet" href="../bootstrap-portfolio/css/style.css" />
 
         <title>Boortstrap-Portfolio</title>
@@ -23,26 +27,43 @@
         <!-- nav -->
         <nav class="navbar navbar-light">
             <a class="navbar-brand" href="#"><span>Ric </span>Johnston</a>
+
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
         </nav>
         <!-- graphicDevTitle -->
         <div class="hero-container">
             <div></div>
             <h1 class="hero-title">GRAPHIC DEVELOPMENT</h1>
-            <img src="../images/Hero_image.jpg" class="img-fluid" alt="image" />
+            <img
+                src="../bootstrap-portfolio/images/Hero_image.jpg"
+                class="img-fluid"
+                alt="image"
+            />
         </div>
 
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h2 class="about-me">About Me</h2>
+                <h2 class="about-me" id="about-me">About Me</h2>
                 <p class="lead">
-                    This is a modified jumbotron that occupies the entire
-                    horizontal space of its parent.
+                    I am a graphic design student learning web development in my
+                    spare time. My other hobbies are collecting sneakers and
+                    listening to music.
                 </p>
             </div>
         </div>
-
-        <div class="container" id="folio-grid">
-            <h2 class="portfolio">Portfolio</h2>
+        <!-- portfolio -->
+        <div class="container" id="folio-grid" id>
+            <h2 class="portfolio" id="portfolio">Portfolio</h2>
             <div class="row">
                 <a href="#" class="col" id="absolut">absolut</a>
                 <a href="#" class="col" id="cyberpunk">cyberpunk</a>
@@ -56,6 +77,32 @@
             </div>
         </div>
 
+        <div class="container">
+            <h2 id="contact">Contact</h2>
+            <div class="icons">
+                <a href="tel:+447874046101" class="bi bi-telephone"></a>
+                <a
+                    href="mailto:mrjohnstonric@gmail.com"
+                    class="bi bi-envelope-at-fill"
+                ></a>
+                <a
+                    href="https://github.com/ricJ14/bootstrap-portfolio"
+                    class="bi bi-github"
+                ></a>
+                <a
+                    href="https://www.behance.net/ricjohnston14"
+                    class="bi bi-behance"
+                ></a>
+                <a
+                    href="https://www.linkedin.com/in/richard-johnston-9a4919200/"
+                    class="bi bi-linkedin"
+                ></a>
+            </div>
+        </div>
+
+        <footer>
+            <p>Designed by RicJohnston © 2022</p>
+        </footer>
         <!-- Optional JavaScript; choose one of the two! -->
 
         <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
